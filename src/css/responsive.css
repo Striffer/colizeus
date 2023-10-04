@@ -1,0 +1,211 @@
+@media (max-width: 1600px) {
+    #duvidas h2 {
+        font-size: 24px;
+    }
+
+    #duvidas .paragrafo {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1410px) {
+    #inicio .inicio_conteudo .botoes {        
+        display: flex;
+        flex-direction: column;
+    }
+
+    #duvidas .duvidas_conteudo {
+        padding: 12px 40px;
+    }
+}
+
+@media (max-width: 1280px) {
+    /* ---Início--- */
+    .paragrafo {
+        font-size: 12px;
+    }
+    
+    h1,
+    h2 {
+        font-size: 28px;
+    }
+
+    /* ---Academia--- */
+
+    #academia img {
+        width: 48vw;
+    }
+
+    #academia li,
+    #duvidas .duvidas_conteudo {
+        font-size: 12px;
+        margin-left: 20px;
+        margin-bottom: 12px;
+    }
+
+    /* ---Duvidas--- */
+
+    #duvidas .duvidas_conteudo .duvida h3 {
+        font-size: 12px;
+        padding: 16px;
+    }
+
+    #duvidas .duvidas_conteudo .duvida .paragrafo {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 830px) {
+    header {
+        padding: 0;
+    }
+
+    header .logo {
+        width: 50%;
+    }
+
+    header .logo a img {
+        height: 100px;
+        width: 100px;
+        margin-left: 20px;
+    }
+
+    header .logo p {
+        font-size: 16px;
+        margin-top: -10px;
+        margin-left: 20px;
+    }
+
+    header nav {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header nav a {
+        font-size: 10px;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    /* ---Início--- */
+
+    #inicio, 
+    #academia,
+    #franqueado,
+    #duvidas{
+        height: 500px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #inicio img,
+    #academia img,
+    #franqueado img,
+    #duvidas .imagem_faq {
+        display: none;
+    }
+
+    #inicio .inicio_conteudo,
+    #academia .academia_conteudo, #franqueado .franqueado_conteudo,
+    #duvidas .duvidas_conteudo {
+        padding: 0;
+        width: 80vw;
+    }
+
+    h1,
+    h2 {
+        font-size: 20px;
+    }
+
+    .paragrafo {
+        font-size: 12px;
+    }
+
+    #inicio .inicio_conteudo .botoes .botao,
+    .botao_transparente {        
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    /* ---Academia--- */
+
+    #academia li,
+    #duvidas .duvidas_conteudo {
+        font-size: 12px;
+        margin-left: 20px;
+        margin-bottom: 12px;
+    }
+
+    /* ---Duvidas--- */
+
+    #duvidas .duvidas_conteudo .duvida h3 {
+        font-size: 12px;
+        padding: 12px;
+    }
+
+    #duvidas .duvidas_conteudo .duvida .paragrafo {
+        font-size: 10px;
+    }
+
+    /* ---Footer--- */
+
+    footer {
+        padding: 16px 10px;
+        height: 200px;
+        font-size: 8px;
+        align-items: center;
+    }
+
+    footer .footer_logo img {
+        height: 70px;
+        width: 70px;
+        margin-left: -20px;
+    }
+
+    footer .footer_logo p {
+        margin-top: -30px;
+        font-size: 8px;
+    }
+
+    footer nav a,
+    footer p {
+        margin-bottom: 5px;
+        margin-left: 15px;
+    }
+
+    footer .titulo {
+        margin-bottom: 8px;
+        margin-left: 15px;
+    }
+
+    /* ---Copyright--- */
+
+    #copyright {
+        height: 50px;
+        padding: 20px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 375px) {
+    #inicio .inicio_conteudo .botoes .botao,
+    .botao_transparente {        
+        padding: 4px;
+    }
+
+    #duvidas h2 {
+        margin-bottom: 16px;
+    }
+}
+
+@media (max-width: 360px) {
+    #academia .academia_conteudo p,
+    #academia .academia_conteudo li{
+        font-size: 10px;
+    }
+
+    #academia li {
+        margin-bottom: 10px;
+    }
+}

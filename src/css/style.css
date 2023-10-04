@@ -1,0 +1,265 @@
+body {
+    color: #0F1B26;
+}
+
+/* ----------Cabeçalho---------- */
+
+header {
+    background-color: #395273;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 80px;
+    height: 130px;
+    width: 100%;
+}
+
+header .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+header .logo p {
+    margin-top: -20px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+header nav a {
+    color: #F2F2F2;
+    font-weight: 600;
+    padding: 32px;
+    text-decoration: none;
+}
+
+/* ----------Início---------- */
+
+#inicio {
+    display: flex;
+    position: relative;
+    height: 600px;
+    width: 100%;
+}
+
+#inicio img {
+    width: 50%;
+    height: 600px;
+}
+
+#inicio .inicio_conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 24px 80px 128px 80px;
+}
+
+h1,
+h2 {
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.paragrafo {
+    line-height: 150%;
+    margin-bottom: 32px;
+    text-align: justify;
+}
+
+#inicio .inicio_conteudo .botoes {
+    display: flex;
+}
+
+#inicio .inicio_conteudo .botoes .botao {
+    width: fit-content;
+    background-color: #0F1B26;
+    padding: 16px 32px;
+    border-radius: 8px;
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+.botao_transparente {
+    width: 300px;
+    background-color: transparent;
+    color: #0F1B26;
+    padding: 16px;
+    text-underline-offset: 4px;
+}
+
+/* ----------Academia---------- */
+
+#academia {
+    display: flex;
+    align-items: center;
+    background-color: #61788C;
+    color: #F2F2F2;
+    height: 600px;
+    width: 100%;
+}
+
+#academia .academia_conteudo {
+    gap: 64px;
+    padding: 64px 80px;
+    width: 50%;
+}
+
+#academia li {
+    margin-bottom: 16px;
+    margin-left: 32px;
+}
+
+#academia img {
+    width: 50%;
+    height: 600px;
+}
+
+/* ----------franqueado---------- */
+
+#franqueado {
+    display: flex;
+    height: 600px;
+    width: 100%;
+}
+
+#franqueado img {
+    width: 50%;
+    height: 600px;
+}
+
+#franqueado .franqueado_conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 24px 80px 128px 80px;
+}
+
+/* ----------duvidas---------- */
+
+#duvidas {
+    background-color: #61788C;
+    display: flex;
+    align-items: center;
+    height: 750px;
+    width: 100%;
+}
+
+#duvidas .duvidas_conteudo, 
+#duvidas .imagem_faq {
+    margin-left: 20%;
+}
+
+#duvidas .duvidas_conteudo {
+    padding: 24px 80px 24px 80px;
+}
+
+#duvidas .duvidas_conteudo .duvida {
+    position: relative;
+}
+
+#duvidas .duvidas_conteudo .duvida h3 {
+    border: 2px solid #F2F2F2;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 24px;
+    background-color: #0F1B26;
+    color: #61788C;
+}
+
+#duvidas .duvidas_conteudo .duvida .paragrafo {
+    border-right: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+    border-left: 1px solid #F2F2F2;
+    border-radius: 0 0 8px 8px;
+    background-color: #395273;
+    color: #F2F2F2;
+    padding: 0 12px;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+
+#duvidas .duvidas_conteudo .duvida.ativa .paragrafo{
+    height: fit-content;
+    opacity: 1;
+    padding: 12px;
+}
+
+#duvidas .duvidas_conteudo .duvida.ativa img {
+    display: none;
+}
+
+#duvidas .duvidas_conteudo .duvida img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 20px;
+}
+
+/* ----------Footer---------- */
+
+footer {
+    background-color: #395273;
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 80px;
+    height: 300px;
+    width: 100%;
+}
+
+footer img,
+footer .titulo {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+footer .footer_logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .footer_img {
+    height: 150px;
+    width: 150px;
+}
+
+footer .footer_logo p {
+    margin-top: -40px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+footer nav a {
+    color: #F2F2F2;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 16px;
+    max-width: 350px;
+}
+
+footer p a {
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+/* ----------copyright---------- */
+
+#copyright {
+    background-color: #0F1B26;
+    padding: 24px;
+    text-align: center;
+    color: #F2F2F2;
+    height: 70px;
+    width: 100%;
+}
+
+#copyright a {
+    color: #61788C;
+}
